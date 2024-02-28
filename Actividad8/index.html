@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- titulo de la pestana -->
+    <title>MI BLOG</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel=“manifest.json”href=“./manifest.json”>
+
+    <title>Document</title>
+    <!--Enlaces de boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--Estilo pripio-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="imagenes/icons8-libro-48.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--container-fluid: ancho completo container: pixeles-->
+    <div class="container-fluid">
+        <!--contenedor de regilla maquetacion-->
+        <!--solo 12 putos entre las columnas o se bajaa la parte de abajo-->
+        <!--col-4: cuantro puntos la columna-->
+        <!--lg: large es tamano y el uno es el nombre de la clase-->
+        <!--md: medioum se pueden agregar diferentes medidias en una solo div-->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12" id="cabecera">
+                <div id="logo">
+                    <h1><a href="../Resposivo" title="Mi sitio web">MI BLOG</a></h1>
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 navbar" id="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li class="seleccionado"><a href="#">Blog</a></li>
+                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Enlaces</a></li>
+                </ul>
+
+                <div class="clear"></div>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-12 main" id="contenido">
+                <!-- Principal -->
+                <div id="principal">
+
+                    <!-- Articulo -->
+                    <div class="articulo">
+                        <h2><a href="#">Mi comida favorita</a></h2>
+                        <p class="info">
+                            <span class="fecha">06-07-2022 01:00</span>
+                            <span class="categoria"><a href="#">diseño</a></span>
+                            <span class="autor"><a href="#">Samuel Betancurt</a></span>
+                            <span class="comentarios"><a href="#">Añadir comentario</a></span>
+                        </p>
+
+                        <img src="imagenes/taco1.jpg">
+
+                        <p>Los tacos son unas de mis comidas favoritas, estos al igual que las fajitas y los burritos,
+                            los tacos son una tortilla rellena con diferentes combinaciones de carnes y verduras, a
+                            veces también legumbres.</p>
+
+                        <p class="btn-more"><a href="#">Seguir leyendo...</a></p>
+                    </div> <!-- /articulo -->
+
+                    <div class="clear"></div>
+
+                    <!-- Articulo -->
+                    <div class="articulo">
+                        <h2><a href="#">Mi videojuego favorito</a></h2>
+                        <p class="info">
+                            <span class="fecha">20-07-2022 01:00</span>
+                            <span class="categoria"><a href="#">diseño</a></span>
+                            <span class="autor"><a href="#">Samuel Betancurt</a></span>
+                            <span class="comentarios"><a href="#">Añadir comentario</a></span>
+                        </p>
+
+                        <img src="imagenes/videojuego.avif">
+
+                        <p>Este es uno de los mejores videojuegos que he jugado,La historia transcurre en Arcadia Bay,
+                            un pueblo ficticio en Oregon, Estados Unidos, y gira en torno a Max Caulfield, una
+                            estudiante de fotografía que descubre que tiene el poder de viajar a través del tiempo,
+                            logrando rebobinar hacia atrás y produciendo un efecto mariposa que permite cambiar el
+                            presente. </p>
+
+                        <p class="btn-more"><a href="#">Seguir leyendo...</a></p>
+                    </div> <!-- /articulo -->
+
+                    <div class="clear"></div>
+
+                    <!-- Articulo -->
+                    <div class="articulo">
+                        <h2><a href="#">A donde me gustaria viajar</a></h2>
+                        <p class="info">
+                            <span class="fecha">31-03-2022 03:00</span>
+                            <span class="categoria"><a href="#">diseño</a></span>
+                            <span class="autor"><a href="#">Samuel Betancurt</a></span>
+                            <span class="comentarios"><a href="#">Añadir comentario</a></span>
+                        </p>
+
+                        <img src="imagenes/tokio.webp">
+
+                        <p>El país del Sol Naciente tiene mucho para ofrecernos. Desde ciudades futuristas, pasando por
+                            alpes y montañas, miles de templos históricos,
+                            hasta ciudades y lugares más tradicionales. Sin olvidarnos de las zona de costas, ya que,
+                            como sabemos, Japón es una isla.</p>
+
+                        <p class="btn-more"><a href="#">Seguir leyendo...</a></p>
+                    </div> <!-- /articulo -->
+
+                    <div class="clear"></div>
+
+                </div><!-- /principal -->
+            </div>
+
+            <!-- Secundario -->
+            <div class="col-lg-2 col-md-2 col-sm-12" id="contenidoS">
+                <div id="secundario">
+
+                    <!-- Sobre mi -->
+                    <h3><a href="#">Sobre mí</a></h3>
+
+                    <div id="sobremi">
+                        <img src="imagenes/yo.webp" alt="Mi foto" width="90px" height="90px" />
+                        <p><strong>Samuel Betancurt</strong><br />
+                            21 años<br />
+                            Juarez<br />
+                            <a href="#">Mi perfil público</a>
+                        </p>
+                    </div> <!-- /sobre mi -->
+
+                    <div class="clear"></div>
+
+                    <!-- Categorías -->
+                    <h3>Categorías</h3>
+
+                    <ul id="categorias">
+                        <li class="seleccionado"><a href="#">Gustos</a></li>
+                        <li><a href="#">Sueños</a></li>
+                        <li><a href="#">Historias</a></li>
+                        <li><a href="#">Juegos</a></li>
+                        <li><a href="#">Peliculas</a></li>
+                    </ul>
+
+                    <div class="clear"></div>
+
+                    <!-- Archivo -->
+                    <h3>Archivo</h3>
+
+                    <ul id="archivo">
+                        <li class="seleccionado"><a href="#">Enero 2022</a></li>
+                        <li><a href="#">Diciembre 20022</a></li>
+                        <li><a href="#">Noviembre 2022</a></li>
+                        <li><a href="#">Octubre 2022</a></li>
+                        <li><a href="#">Septiembre 2022</a></li>
+                    </ul>
+
+                    <div class="clear"></div>
+
+                    <!-- Enlaces -->
+                    <h3>Enlaces</h3>
+
+                    <ul id="enlaces">
+                        <li><a href="#">Enlace 1</a></li>
+                        <li><a href="#">Enlace 2</a></li>
+                        <li><a href="#">Enlace 3</a></li>
+                        <li><a href="#">Enlace 4</a></li>
+                        <li><a href="#">Enlace 5</a></li>
+                    </ul>
+
+                    <div class="clear"></div>
+
+                </div> <!-- /secundario -->
+
+                <div class="clear"></div>
+            </div> <!-- /contenido -->
+            <div class="col-lg-12 col-md-12 col-sm-12" id="pie">
+                <p id="copyright">&copy; Samuel Betancurt</p>
+            </div>
+        </div>
+    </div>
+    <!--Funcionalidad de script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

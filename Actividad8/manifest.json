@@ -1,0 +1,19 @@
+{
+  "name": "#Miblog",
+  "short_name": "#Miblog",
+  "description": "Bienvenid@s a #Miblog, un lugar en el ual puedes subir describir tu dia a dia y recordar momentos que sean muy especiales para ti :)",
+  "background_color": "#2B2B2B",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./imagenes/icons8-libro-48.png",
+      "sizes": "48x48",
+      "type": "imagenes/png"
+    }
+  ]
+}
