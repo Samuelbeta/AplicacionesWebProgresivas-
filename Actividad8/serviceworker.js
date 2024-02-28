@@ -1,6 +1,6 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_programador_fitness',
+const CACHE_NAME = 'cache_miblog',
   urlsToCache = [
     './',
     './style.css',
@@ -56,3 +56,4 @@ self.addEventListener('fetch', e => {
       })
   )
 })
+
